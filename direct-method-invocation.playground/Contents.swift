@@ -83,3 +83,4 @@ john.sayMyName()
 
 //Challenge 3
 let lisa = Person(name: "Lisa")
+lisa.greet(person: john)
