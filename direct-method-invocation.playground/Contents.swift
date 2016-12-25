@@ -50,6 +50,15 @@ let subtractionResult = calculator.subtract(a: 2, b: 1)
  
  In this particular case, it is clear the _receiver_ of the message is the `calculator` (because we are calling a method on it). But **who is the _sender_**? Well, usually it is the object that calls the method but in this case, we don't perform the method call in the scope of a class so it is hard to tell who the _sender_ actually is. In fact, this is a special case because we are in the **Playground** environment, so the _sender_ actually is the Playground itself.
  */
+//Challenges:
+//
+//Create a new class Person that has a property name of type String and that accepts two kinds of messages:
+//a message that will make the Person print its name, e.g.: "My name is John"
+//a message in which the sender can attach another Person as payload and the receiving object will greet that Person by printing, e.g.: "Hello, John!"
+//
+//Create an object of type Person. Let it say its name by sending an appropriate message to it.
+//Create another object of type Person. Make it so that both objects say hello to each other by sending appropriate messages.
+
 
 //Challenge 1
 class Person {
@@ -70,3 +79,4 @@ class Person {
 }
 //Challenge 2
 let john = Person(name: "John")
+john.sayMyName()
