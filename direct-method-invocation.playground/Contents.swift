@@ -68,3 +68,5 @@ class Person {
         self.name = name
     }
 }
+//Challenge 2
+let john = Person(name: "John")
