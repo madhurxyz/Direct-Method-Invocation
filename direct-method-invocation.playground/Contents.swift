@@ -51,4 +51,7 @@ let subtractionResult = calculator.subtract(a: 2, b: 1)
  In this particular case, it is clear the _receiver_ of the message is the `calculator` (because we are calling a method on it). But **who is the _sender_**? Well, usually it is the object that calls the method but in this case, we don't perform the method call in the scope of a class so it is hard to tell who the _sender_ actually is. In fact, this is a special case because we are in the **Playground** environment, so the _sender_ actually is the Playground itself.
  */
 
+//Challenge 1
+class Person {
 
+}
