@@ -64,4 +64,7 @@ class Person {
         print(greetString)
         return greetString
     }
+    init(name: String){
+        self.name = name
+    }
 }
