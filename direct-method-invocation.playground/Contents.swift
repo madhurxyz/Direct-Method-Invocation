@@ -53,5 +53,11 @@ let subtractionResult = calculator.subtract(a: 2, b: 1)
 
 //Challenge 1
 class Person {
+    let name: String
+    func sayMyName() -> String{
 
+    }
+    func greet(person: Person) -> String {
+
+    }
 }
