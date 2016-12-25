@@ -80,3 +80,6 @@ class Person {
 //Challenge 2
 let john = Person(name: "John")
 john.sayMyName()
+
+//Challenge 3
+let lisa = Person(name: "Lisa")
