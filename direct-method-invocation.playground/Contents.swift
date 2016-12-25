@@ -55,9 +55,13 @@ let subtractionResult = calculator.subtract(a: 2, b: 1)
 class Person {
     let name: String
     func sayMyName() -> String{
-
+        let sayString = "My name is \(name)"
+        print(sayString)
+        return sayString
     }
     func greet(person: Person) -> String {
-
+        let greetString = "Hello \(person.name)!"
+        print(greetString)
+        return greetString
     }
 }
